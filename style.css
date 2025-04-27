@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+p{
+    color: #9c9b9b;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+h1 , h2{
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.navbar{
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+
+.logo{
+    margin-right: 20px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    margin-right: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+    color: rgb(0, 191, 0);
+    border-bottom: rgb(0, 191, 0) 2px solid;
+}
+
+.nav-links li button{
+    background-color: rgb(0, 191, 0);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+#menu-toggle{
+    display: none;
+}
+
+
+.header{
+    display: flex;
+    background-color: aliceblue;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text{
+    margin: 70px;
+}
+
+
+.text h1{
+    font-size: 50px;
+    color: black;
+}
+
+.text .green{
+    color:  rgb(0, 191, 0);
+}
+
+.text button{
+    background-color: rgb(0, 191, 0);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.clients{
+    line-height: 2rem;
+    padding: 20px;
+}
+
+.clients img{
+    padding: 40px;
+}
+
+.services{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 200px;
+    margin: 30px;
+}
+
+.about{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mid{
+    width: 400px;
+    margin: 50px;
+}
+
+
+.mid button{
+    background-color: rgb(0, 191, 0);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.image{
+    margin: 30px;
+}
+
+
+.text h5 , span{
+    color:  rgb(0, 191, 0);
+}
+
+.text img , span{
+    padding: 10px;
+}
+
+
+#bottom{
+    width: 650px;
+}
+
+
+.caring{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.caring-img img{
+    margin: 10px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.last img{
+    padding: 10px;
+    height: 50px;
+}
+
+.last{
+    margin: 60px;
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.last p {
+    color: #9c9b9b;
+}
+
+
+.last input{
+    border: none;
+    background-color: rgb(87, 86, 86);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
